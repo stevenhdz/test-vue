@@ -1,9 +1,5 @@
 version: "1.0"
 services:
-  api:
-    build: ./services/
-    ports:
-      - 3000:3000
   web:
     build: ./vue-project/
     ports:
